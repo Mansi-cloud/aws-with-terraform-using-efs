@@ -201,7 +201,7 @@ depends_on = [
 resource "aws_s3_bucket_object" "myobj" {
   key = "pic.jpg"
   bucket = aws_s3_bucket.mybucket.id
-  source = "C:/Users/Rajat/Desktop/pic.jpg"
+  source = "C:/Users/Mansi/Desktop/pic.jpg"
   acl="public-read"
 }
 
